@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1. Testar no computador",
+      "type": "shell",
+      "command": "npx serve . -l 5500",
+      "problemMatcher": []
+    },
+    {
+      "label": "2. Publicar no Vercel (produção)",
+      "type": "shell",
+      "command": "npx vercel --prod",
+      "problemMatcher": []
+    }
+  ]
+}
